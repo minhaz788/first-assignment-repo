@@ -136,8 +136,10 @@ section{
   display:inline-block;
     justify-content: space-around;
     text-align: center;
-    margin: ;
+    
 }
+
+
 
 footer{
     padding: 130px 230px;
@@ -145,7 +147,7 @@ footer{
     gap: 100px;
 }
 
-.footer-column{
+.m-column{
     width: 497%;
 }
 
@@ -161,7 +163,38 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     font-size: 16px;
 }
 
-.f-title{
-    font-size: 97px;
+
+.container{
+    text-align: center;
+    padding: 20px;
+    display: block;
+}
+
+.logo {
+  font-size: 64px;
+  font-weight: bold;
+  color: #4c4cff; 
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 16px;
+  color: #999;
+  margin-bottom: 30px;
+}
+
+.ullist{
+    margin: 0 15px;
+    text-decoration: none;
+    color: #777;
+    font-size: 15px;
+    list-style:none;
+}
+
+ul{
+    list-style:none;
+    display:inline-flex;
+    text-align: center;
+    gap:15px;
 }
 
