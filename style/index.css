@@ -151,6 +151,10 @@ footer{
     width: 497%;
 }
 
+.f-title{
+    font-size: 97px;
+}
+
 footer input[type="text"], footer input[type="email"], footer textarea{
     height: 64px;
     border-radius: 5px;
