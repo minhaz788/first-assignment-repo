@@ -2,6 +2,7 @@ header{
     background-image: url(../Assets/Hero-bg.png);
     padding-bottom: 200px;
     width: 100%;
+    
 }
 
 /* nav style */
@@ -30,6 +31,8 @@ nav li a{
     
 }
 
+/* button */
+
 .btn-primary{
     background-color: #4E47FF;
     padding: 26px 36px;
@@ -56,8 +59,109 @@ nav li a{
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
+  
 }
 
 .banner-container{
     text-align: center;
 }
+
+/* main */
+.action{
+    max-width: 1140px;
+    padding: 40px 22px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ main{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 62px;
+
+ }
+
+.picture{
+    border-radius: 48px;
+}
+
+.section-title{
+    font-weight: 42px;
+}
+
+.section-description{
+    font-weight: 24px;
+    
+}
+
+/* secod box */
+
+.second-box{
+    width: 1140px;
+    margin:0 auto;
+    padding: 50px 80px;
+    background-color: #4d47ff59;
+    border-radius: 24px;
+    align-items: center;
+    display: inline-block;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+
+.item-description{
+    font-weight: thin;
+}
+
+.item{
+    font-weight: bolder;
+    font-size: 80px;
+   
+}
+
+
+.inter-second-item{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  display:inline-block;
+    justify-content: space-around;
+    text-align: center;
+    margin: ;
+}
+
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-column{
+    width: 497%;
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 18px 30px;
+    margin-bottom: 24px;
+    border: 2px solid black;
+    font-size: 16px;
+}
+
+.f-title{
+    font-size: 97px;
+}
+
